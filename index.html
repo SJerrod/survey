@@ -10,6 +10,70 @@
   <title>Survey</title>
 </head>
 <body>
-  
+  <div class="container">
+    <h1>Generic Survey</h1>
+    <form id="name">
+      <div class="form-group">
+        <label for="firstName">Enter First Name</label>
+        <input id="firstName" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="lastName">Enter Last Name</label>
+        <input id="lastName" class="form-control" type="text">
+      </div>
+    </form>
+    <form id="birthDate">
+      <div class="form-group">
+        <label for="born">When is your birthday?</label>
+        <input id="birthday" class="form-control" type="date">
+      </div>
+    </form>
+    <form id="music">
+      <div class="form-group">
+        <label>Favorite music Genre</label>
+        <select class="form-control" id="favMusic">
+          <option>Rock</option>
+          <option>80's Rock</option>
+          <option>Rap</option>
+          <option>Classical</option>
+          <option>RnB</option>
+          <option>Blues</option>
+          <option>Jazz</option>
+          <option>EDM</option>
+          <option>House</option>
+          <option>Dubstep</option>
+          <option>Alternative</option>
+          <option>Gypsy Punk</option>
+          <option>Not Country</option>
+          <option>Lo-Fi Beats</option>
+          <option>Ambient</option>
+          <option>Podcasts</option>
+        </select>
+      </div>
+    </form>
+    <form id="favFood">
+      <label>Favorite Fast food</label>
+      <div class="form-group">
+        <input type="radio" id="mcD" name="fastFood" value="burgers">
+        <label for="mcD">Mcdonalds</label>
+        <input type="radio" id="inOut" name="fastFood" value="burgers">
+        <label for="inOut">In n'out</label>
+        <input type="radio" id="taco" name="fastFood" value="tacos">
+        <label for="taco">Taco Bell</label>
+        <input type="radio" id="wendys" name="fastFood" value="burgers">
+        <label for="wendys">Wendys</label>
+        <input type="radio" id="kFc" name="fastFood" value="chicken">
+        <label for="kFc">KFC</label>
+      </div>
+    </form>
+    <form id="favColor">
+      <div class="form-group">
+        <label for="color">Choose your favorite color</label>
+        <input id="color" class="form-control" type="color">
+        <h1 id="submit">SUBMIT</h1>
+      </div>
+    </form>
+  </div>
+
 </body>
 </html>
